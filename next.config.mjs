@@ -14,6 +14,8 @@ const nextConfig = {
   basePath: isProd ? "/portfolio" : "",
   assetPrefix: isProd ? "/portfolio/" : "",
 
+  trailingSlash: true,
+
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -24,6 +26,7 @@ const nextConfig = {
 
   images: {
     unoptimized: true,
+    path: isProd ? "/portfolio/_next/image" : "/_next/image",
   },
 
   experimental: {
