@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://narendra-singh-chauhan.github.io/v2.portfolio",
+  "homepage": "https://its-narendra-singh.github.io/portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

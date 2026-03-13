@@ -97,7 +97,7 @@ const Hero = () => {
               {/* Hover Icons */}
               <div className="absolute left-1/2 transform -translate-x-1/2 mt-2 bg-secondary text-secondary-foreground px-4 py-4 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col gap-4">
                 <a
-                  href="https://github.com/narendra-singh-chauhan"
+                  href="https://github.com/its-narendra-singh"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-primary transition duration-300 flex items-center"
@@ -105,7 +105,7 @@ const Hero = () => {
                   <FaGithub className="mr-2" /> GitHub
                 </a>
                 <a
-                  href="https://linkedin.com/in/narendra-singh-982a2b247"
+                  href="https://linkedin.com/in/its-narendra-singh"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-primary transition duration-300 flex items-center"

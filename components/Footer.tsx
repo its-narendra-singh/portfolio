@@ -11,7 +11,7 @@ const Footer = () => {
           </div>
           <div className="flex space-x-4">
             <a
-              href="https://linkedin.com/in/narendra-singh-982a2b247"
+              href="https://linkedin.com/in/its-narendra-singh"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-400 transition duration-300"
@@ -19,7 +19,7 @@ const Footer = () => {
               <FaLinkedin size={24} />
             </a>
             <a
-              href="https://github.com/narendra-singh-chauhan"
+              href="https://github.com/its-narendra-singh"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-400 transition duration-300"

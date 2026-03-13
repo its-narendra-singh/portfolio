@@ -7,9 +7,11 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",  // <=== enables static exports
-  // basePath: '/v2.portfolio', // Adjust this if needed
-  // assetPrefix: '/v2.portfolio', // Adjust this if needed
+  output: "export",
+
+  basePath: "/portfolio",
+  assetPrefix: "/portfolio/",
+
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -18,8 +20,6 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
-    loader: 'default',
-    // path: '/v2.portfolio'
   },
   experimental: {
     webpackBuildWorker: true,
@@ -31,15 +31,10 @@ const nextConfig = {
 mergeConfig(nextConfig, userConfig)
 
 function mergeConfig(nextConfig, userConfig) {
-  if (!userConfig) {
-    return
-  }
+  if (!userConfig) return
 
   for (const key in userConfig) {
-    if (
-      typeof nextConfig[key] === 'object' &&
-      !Array.isArray(nextConfig[key])
-    ) {
+    if (typeof nextConfig[key] === "object" && !Array.isArray(nextConfig[key])) {
       nextConfig[key] = {
         ...nextConfig[key],
         ...userConfig[key],
