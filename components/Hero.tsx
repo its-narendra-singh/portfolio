@@ -36,8 +36,7 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-muted-foreground mb-8"
           >
-            With 3 years of experience, I specialize in crafting high-performance web applications using MERN stack
-            technologies.
+            Software Engineer with 4 years of experience in full-stack development building scalable applications using modern JavaScript technologies including the MERN stack. Experienced in designing high-performance APIs, real-time systems, and cloud-based platforms with strong focus on scalability, system design, and maintainable architecture.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}

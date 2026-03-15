@@ -5,27 +5,33 @@ import { FaBriefcase, FaChevronDown } from "react-icons/fa"
 
 const experiences = [
   {
-    title: "Full Stack Developer",
-    company: "FOG Technologies",
-    duration: "Jan 2024 - Present",
+    title: "Software Engineer",
+    company: "Bacancy Technology",
+    duration: "Sep 2025 - Mar 2026",
     description: [
-      "Worked primarily on a project named Hyper Grid, an LED floor-based game, focusing on software development.",
-      "Utilized MERN stack and Electron with Realm DB for offline support.",
-      "Successfully completed various projects within specified timelines, ensuring 100% client satisfaction.",
-      "Enhanced communication skills and overall performance through collaboration with multiple clients.",
-      "Took on the role of training new talent in MERN stack technology, elevating my capabilities as a team leader and a more senior.",
+      "Enhanced geospatial data visualization for a claims inspection platform by resolving map pin overlay issues using a butterfly clustering approach, improving marker clarity and map interaction across large datasets.",
+      "Refactored frontend architecture into modular Next.js components, removed duplicate logic and implemented unit testing with Vitest and React Testing Library achieving ~90% test coverage.",
+      "Worked with microservices-based architecture utilizing RabbitMQ messaging for asynchronous communication, while leveraging AI development tools (Cursor, Claude Code) to accelerate engineering workflows.",
     ],
   },
   {
-    title: "Full Stack Developer",
-    company: "Codelink Infotech",
-    duration: "May 2022 - Dec 2023",
+    title: "Software Engineer",
+    company: "FOG Technologies",
+    duration: "Jan 2024 - Sep 2025",
     description: [
-      "Sharpened problem-solving skills and gained a robust full-stack foundation.",
-      "Collaborated with the team to develop an ERP system for the company, which is now actively in use.",
-      "Worked on various projects involving both frontend and backend development.",
-      "Developed and maintained web applications using the MERN stack.",
-      "Implemented responsive design and ensured cross-browser compatibility.",
+      "Architected an interactive LED floor gaming platform using MERN stack, Electron.js, TypeScript, and Realm DB, deployed across multiple international venues and supporting real-time gameplay interactions.",
+      "Developed multiple interactive gaming modules including Escape the Lava using OOP principles, designing dynamic gameplay patterns that enhanced player engagement across arcade installations.",
+      "Optimized application performance by redesigning IPC communication and externalizing static assets, reducing bundle size by 50% and build time by 50%, while implementing AWS S3 and Lambda based OTA update workflows.",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company: "Codelink Infotech",
+    duration: "Apr 2022 - Jan 2024",
+    description: [
+      "Engineered and delivered scalable full-stack applications using the MERN stack, building reusable APIs, modular components, and maintainable architectures across multiple production projects.",
+      "Built a comprehensive HRM platform with modules for employee management, payroll, leave tracking, and reporting, deployed to production on DigitalOcean.",
+      "Integrated TradingView APIs and GraphQL into fintech platforms while deploying applications on Hostinger and DigitalOcean and collaborating with clients to deliver production-ready solutions.",
     ],
   },
 ]

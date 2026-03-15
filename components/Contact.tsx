@@ -39,7 +39,7 @@ const Contact = () => {
                 whileHover={{ scale: 1.05, color: "var(--primary)" }}
               >
                 <FaMapMarkerAlt className="mr-2 text-primary" />
-                Adajan Gam, Surat
+                Science City, Ahmedabad, Gujarat
               </motion.p>
             </div>
           </motion.div>
